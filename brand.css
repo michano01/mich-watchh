@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+    position: relative;/*for positioning the cart count*/
+}
+nav ul{
+    list-style: none;
+    padding: 10px;
+    gap: 40px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    
+}
+nav a{
+    color: white;
+    position: relative;
+    text-decoration: none;
+}
+li img{
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    background-color: bisque;
+    border-radius: 17%;
+    border-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+
+}
+.logo-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+}
+.clock-image img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.overlay-text{
+    position: absolute;
+    top: 30%;
+    left: 51%;
+    color: bisque;
+    font-size: 750%;
+    text-align: right;
+    padding-right: 25px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
