@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My watch shop</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>MICH WATCH SHOP</h1>
+        <Nav>
+            <ul>
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="classic.html">CLASSIC WATCH</a></li>
+               <li><a href="smart.html">SMART WATCH</a></li>
+               <li><a href="brand.html">BRANDS</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+               <li><a href="cart.html">CART (<span id="cart-item-count"></span>)</a></li>
+            </ul>
+        </Nav>    
+    </header>
+    <main class="product-grid">
+        <div class="product-card">
+            <img src="junghansformc.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Junghans FORM C</h3>
+            <p class="product-price">$590</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="ds2turningbezelseaturtleconservancy.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">DS-2 Turning Bezel Sea Turtle Conservancy</h3>
+            <p class="product-price">$800</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="ds7powermatic80.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">DS-7 Powermatic 80</h3>
+            <p class="product-price">$720</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="dsactiondiverautomatic.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">DS Action Diver Automatic</h3>
+            <p class="product-price">$400</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="dsactiondaydate.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">DS Action Day-Date</h3>
+            <p class="product-price">$350</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="ds2chronographautomatic.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">DS-2 Chronograph Automatic</h3>
+            <p class="product-price">$655</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="dsactiondiverautomatics.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">DS Action Diver Automatic</h3>
+            <p class="product-price">$250</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="seiko5sport.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Seiko 5 Sports</h3>
+            <p class="product-price">$400</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="seiko5sports.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Seiko 5 sports</h3>
+            <p class="product-price">$550</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="seikopresagecocktail.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Seiko Presage Cocktail</h3>
+            <p class="product-price">$850</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="swatchxblancpainbluelagoon.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Swatch X Blancpain Blue Lagoon</h3>
+            <p class="product-price">$200</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="swatchtrendylinesatnight.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Swatch Trendy Lines At Night</h3>
+            <p class="product-price">$400</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="swatchsmak.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Swatch Smack !</h3>
+            <p class="product-price">$190</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="timexq.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Timex Q</h3>
+            <p class="product-price">$600</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="timexmarlin.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Timex Marlin</h3>
+            <p class="product-price">$300</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="timexexpedition.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Timex Expendition</h3>
+            <p class="product-price">$380</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="hamiltonkhakifieldauto.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Hamilton Khaki Field Auto</h3>
+            <p class="product-price">$730</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="hamiltonkhakifield.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Hamilton Khaki Field</h3>
+            <p class="product-price">$435</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="hamiltonkhakifieldauto.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Hamilton Boulton</h3>
+            <p class="product-price">$800</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tissotprxdigital.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Tissot PRX Digital</h3>
+            <p class="product-price">$230</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tissottclassicprx.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Tissot T-Classic PRX</h3>
+            <p class="product-price">$410</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tissottclassicprxpowermatic80.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Tissot T-Classic PRX Powermatic 80</h3>
+            <p class="product-price">$770</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="citizentsukiyomi.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Citizen 'Tsuki-Yomi' Radio-Controlled Moon Phase</h3>
+            <p class="product-price">$1200</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="citizenpromaster.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Citizen ProMaster</h3>
+            <p class="product-price">$400</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="citiznpromasters.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Citizen Pro Master</h3>
+            <p class="product-price">$500</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="mtpb145d9avef.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">MTP-B145D-9AVEF</h3>
+            <p class="product-price">$83</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="casioa163wa1qes.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Casio A163WA-1QES</h3>
+            <p class="product-price">$92</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="gshockgab21001ar.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">G-Shock GA-B2100-1AER</h3>
+            <p class="product-price">$135</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="orientraaa0820r19b.jpd.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Orient RA-AA082R19B</h3>
+            <p class="product-price">$380</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="orientstettosolarchronograph.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Orient Stretto Solar Chronograph</h3>
+            <p class="product-price">$298</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="orientfac00007w0.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Orient FAC00007W0</h3>
+            <p class="product-price">$250</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="junghansforma.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Junghans Form A</h3>
+            <p class="product-price">$700</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="junghansformc.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Junghan FORM C</h3>
+            <p class="product-price">$810</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="junghanformdaren.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Junghans FORM Damen</h3>
+            <p class="product-price">$740</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="unimateu4classic.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Unimatic U4 CLASSIC</h3>
+            <p class="product-price">$80</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="unimaticut1.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Unimatic UT1</h3>
+            <p class="product-price">$700</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="unimaticu5smomar.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Unimatic U5S-MoMA-R</h3>
+            <p class="product-price">$21</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tissotchemindestourelles.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Tissot Chemin Des Tourelles Squelette</h3>
+            <p class="product-price">$1350</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tissotseastarpowermatic80.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Tissot Seastar Powermatic 80</h3>
+            <p class="product-price">$120</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tissottclassicprxpowermatic80.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Tissot PRX Powermatic 80</h3>
+            <p class="product-price">$150</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tissotpr516mechanicalchronograph.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Tissot PR516 Mechanical Chronograph</h3>
+            <p class="product-price">$500</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tissotprxuforobotgrendizer.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Tissot PRX UFO Robot Grendizer</h3>
+            <p class="product-price">$1150</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="prxgradeddial.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">PRX Graded Dial</h3>
+            <p class="product-price">$1100</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tissotprxpowermatic.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Tissot PRX Powermatic</h3>
+            <p class="product-price">$1300</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tclassicprxpowermatic80.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">T-Classic PRX Powermatic 80</h3>
+            <p class="product-price">$900</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tissotprxdigital40mm.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Tissot PRX Digital 40mm</h3>
+            <p class="product-price">$300</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tissotheritage1938.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Tissot Heritage 1938</h3>
+            <p class="product-price">$2100</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tissotseastar1000chronograph.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Tissot Seastar 1000 Chronograph</h3>
+            <p class="product-price">$1000</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tissottsportsiderals.jpg.jpg" alt="" class="product-image">
+            <h3 class="product-title">Tissot T-Sport Sideral S</h3>
+            <p class="product-price">$1800</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="gtimeless.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">G-Timeless</h3>
+            <p class="product-price">$2900</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="gtimelesss.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">G-Timeless</h3>
+            <p class="product-price">$2200</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="guccidive.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Gucci Dive</h3>
+            <p class="product-price">$2100</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="guccidivee.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Gucci Dive</h3>
+            <p class="product-price">$3400</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="gucci25h.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Gucci 25H</h3>
+            <p class="product-price">$5000</p>
+            <button class="add-to-cart-btn" onclick="addToCart('1')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="gucci25hh.jpg.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Gucci 25H</h3>
+            <p class="product-price">$5000</p>
+            <button class="add-to-cart-btn" onclick="addToCart('1')">Add to Cart</button>
+        </div>
+    </main>
+    <hr style="border: 1px solid black; width: 90%;">
+    <h2>Smart Watches >>></h2>
+    <main class="product-grid">
+        <div class="product-card">
+            <img src="applewatchhemesseries10.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Apple Watch Hemes Series 10 </h3>
+            <p class="product-price">$1850</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="applewatchhemesultra2.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Apple watch Hemes Ultra 2</h3>
+            <p class="product-price">$1800</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="applewatchse.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Apple Watch SE</h3>
+            <p class="product-price">$280</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="applewatchseries10.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Apple Watch Series 10 </h3>
+            <p class="product-price">$500</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="applewatchultra2.jpg" alt="#" class="product-image" >
+            <h3 class="product-title">Apple watch Ultra 2</h3>
+            <p class="product-price">$1000</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="or1.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Oraimo Watch 2 pro</h3>
+            <p class="product-price">$110</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="or2.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Oraimo Watch 4 Lite</h3>
+            <p class="product-price">$120</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="or3.jpeg" alt="" class="product-image">
+            <h3 class="product-title">Oraimo Watch 5</h3>
+            <p class="product-price">$150</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="or4.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Oraimo 1.43</h3>
+            <p class="product-price">$80</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="or5.jpeg" alt="#" class="product-image">
+            <h3 class="product-title">Oraimo Watch 3 Pro</h3>
+            <p class="product-price">$100</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="or6.jpeg" alt="" class="product-image">
+            <h3 class="product-title">Oraimo Tempo W3</h3>
+            <p class="product-price">$50</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm1.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Approach S44</h3>
+            <p class="product-price">$299</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm2.jpg" alt="" class="product-image">
+            <h3 class="product-title">Approach S70</h3>
+            <p class="product-price">$649</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm3.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Vivomove Series</h3>
+            <p class="product-price">$179</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm4.jpg" alt="" class="product-image">
+            <h3 class="product-title">MARQ (Gen 2) Collection</h3>
+            <p class="product-price">$1900</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm5.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Bounce</h3>
+            <p class="product-price">$149.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm6.jpg" alt="" class="product-image">
+            <h3 class="product-title">Forerunner 55</h3>
+            <p class="product-price">$199.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm7.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Lily 2 Series</h3>
+            <p class="product-price">$199.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm8.jpg" alt="" class="product-image">
+            <h3 class="product-title">Forerunner 965</h3>
+            <p class="product-price">$499.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm9.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Forerunner 265 sereies</h3>
+            <p class="product-price">$349.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm10.jpg" alt="" class="product-image">
+            <h3 class="product-title">Forerunner 165 Series</h3>
+            <p class="product-price">$199.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm11.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Enduro 3</h3>
+            <p class="product-price">$899.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm12.jpg" alt="" class="product-image">
+            <h3 class="product-title">Tactix 8 Series</h3>
+            <p class="product-price">$1299.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm13.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Vivoactive 6</h3>
+            <p class="product-price">$299.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm14.jpg" alt="" class="product-image">
+            <h3 class="product-title">Venu 3 Series</h3>
+            <p class="product-price">$449.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm15.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Instinct 3 Series</h3>
+            <p class="product-price">$299.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm16.jpg" alt="" class="product-image">
+            <h3 class="product-title">Fenix 8 Series</h3>
+            <p class="product-price">$799.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm17.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Galaxy Watch Ultra</h3>
+            <p class="product-price">$500</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm18.jpg" alt="" class="product-image">
+            <h3 class="product-title">Galaxy Watch 7</h3>
+            <p class="product-price">$600</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm19.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Galaxy Watch 6 Classic</h3>
+            <p class="product-price">$700</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm20.jpg" alt="" class="product-image">
+            <h3 class="product-title">Galaxy Watch FE</h3>
+            <p class="product-price">$400</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm21.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Google Pixel Watch 3</h3>
+            <p class="product-price">$349.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm22.jpg" alt="" class="product-image">
+            <h3 class="product-title">Google Pixel Watch 2</h3>
+            <p class="product-price">$249.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm23.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Fitbit Ace LTE</h3>
+            <p class="product-price">$179.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm24.jpg" alt="" class="product-image">
+            <h3 class="product-title">Fitbit Sese 2</h3>
+            <p class="product-price">$249.95</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm25.jpg" alt="#" class="product-image">
+            <h3 class="product-title">Fitbit Versa</h3>
+            <p class="product-price">$199.95</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="sm26.jpg" alt="" class="product-image">
+            <h3 class="product-title">Fitbit Versa 4</h3>
+            <p class="product-price">$285.99</p>
+            <button class="add-to-cart-btn" onclick="addToCart('#')">Add to Cart</button>
+        </div>
+        <hr>
+        
+
+    <footer>
+        <p>&copy;2025 Watch Shop.All rights reserved.</p>
+    </footer>
+    <script>
+        let cartcount={};
+        const cartitemcountspan=document.getElementById('cart-item-count');
+        function addToCart(name,price){
+            console.log(`Added ${name} ($${price})to cart`);
+            cartCount;
+            updateCartCount();
+        }
+        function updateCartCount(){
+            cartitemcountspan.textContent=cartcount;
+        }
+
+    </script>
+</body>
+</html>
